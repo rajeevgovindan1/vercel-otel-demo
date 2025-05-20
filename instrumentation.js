@@ -1,9 +1,9 @@
-const { registerOTel } = require('@vercel/otel')
+const { registerOTel } = require('@vercel/otel');
 
 module.exports.register = function () {
-  console.log("🚀 OTel instrumentation initialized")
+  console.log("🚀 OTel instrumentation initialized");
   registerOTel({
     serviceName: 'vercel-otel-demo'
-  })
-}
+  });
+};
 
