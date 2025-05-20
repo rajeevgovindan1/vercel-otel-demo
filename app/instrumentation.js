@@ -1,4 +1,4 @@
-const { registerOTel } = require('@vercel/otel');
+const { registerOTel } = require('@vercel/otelrajeev');
 const { Resource } = require('@opentelemetry/resources');
 
 module.exports.register = () => {
